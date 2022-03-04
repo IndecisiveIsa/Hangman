@@ -77,7 +77,7 @@ public class Stickman extends GCompound{
         case 1:
             remove(head);
             //todo: Make it able to loose, and do it here
-            System.exit(0);
+            //? Psyche don't do it here
             break;
     }
     lives--;

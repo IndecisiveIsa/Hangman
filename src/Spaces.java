@@ -3,8 +3,7 @@ import acm.graphics.GCompound;
 import acm.graphics.GLabel;
 import acm.graphics.GRect;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -35,11 +34,11 @@ public class Spaces extends GCompound{
 
     public String wordList(){
 
-        List<String> words = Arrays.asList("Hello","among","us");
+        List<String> words = Arrays.asList("play","that","funky","music","white","boy");
 
         int let=0;
         boolean play = true;
-        String s = words.get(randy.nextInt(2));
+        String s = words.get(randy.nextInt(3));
 
         letters = s.toCharArray();
 
