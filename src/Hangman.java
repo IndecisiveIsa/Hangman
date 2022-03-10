@@ -17,6 +17,8 @@ public class Hangman extends GraphicsProgram{
         add(winLabel,25,25);
         GLabel lossLabel = new GLabel("losses = 0");
         add(lossLabel,25,50);
+        GLabel wrongGuesses = new GLabel("Wrong Guesses:");
+        add(lossLabel,25,50);
         while (true) {
             stickman = new Stickman(this.getGCanvas());
             add(stickman);
@@ -95,6 +97,9 @@ public class Hangman extends GraphicsProgram{
             return rem;
     }
 
+    public void wrong(){
+
+    }
 
 
 
